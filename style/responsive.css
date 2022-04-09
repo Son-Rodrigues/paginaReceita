@@ -1,0 +1,20 @@
+@media (max-width:  800px) {
+	.nav-menu {
+		height: 300px;
+	}
+	
+	.nav-menu ul {
+		display: flex;
+		flex-direction: column;
+		height: 280px;
+		padding: 10px;
+	}
+
+	section .img img {
+		width: 100%;
+	}
+
+	section .img iframe {
+		width: 100%;
+	}
+}
