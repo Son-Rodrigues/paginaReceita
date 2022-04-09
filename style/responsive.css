@@ -17,4 +17,8 @@
 	section .img iframe {
 		width: 100%;
 	}
+
+	.sub {
+		border-radius: 10px;
+	}
 }
