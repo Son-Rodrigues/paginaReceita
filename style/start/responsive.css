@@ -1,0 +1,88 @@
+@media (max-width:  800px) {
+	body {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(to top,rgba(0, 0, 0, .9) 0%,rgba(0, 0, 0, .6) 60%,rgba(0, 0, 0, .9) 100%), url("https://i.pinimg.com/originals/e0/b0/fb/e0b0fb3effd33b978be7b981c752d619.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	}
+
+	.right img {
+		width: 50px;
+		margin: 20px 20px;
+	}
+
+	.titulo {
+		margin: 20px;
+	}
+
+	.titulo h1 {
+		font-size: 2em;
+		color: white;
+		text-align: right;
+	}
+
+	.titulo p {
+		font-size: 1em;
+		color: #fff;
+		text-align: right;
+	}
+
+	.links {
+		margin-top: 0;
+	}
+
+	fieldset {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 10px;
+		color: #fff;
+	}
+
+	input {
+		margin: 10px;
+	}
+
+	button {
+		margin: 10px;
+	}
+
+	.left {
+		display: none;
+	}
+}
+
+@media (max-width:  600px) {
+
+	.right img {
+		width: 30px;
+	}
+
+	.titulo h1 {
+		font-size: 18px;
+		color: white;
+		text-align: right;
+	}
+
+	.titulo p {
+		font-size: 14px;
+		color: #fff;
+		text-align: right;
+	}
+
+	.links {
+		margin-top: 0;
+	}
+
+	.links a {
+		font-size: 14px;
+	}
+
+	.links a:hover {
+		font-size: 16px;
+		padding: 5px;
+	}
+}
