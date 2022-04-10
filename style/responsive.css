@@ -1,4 +1,6 @@
-@media (max-width:  800px) {
+/* TABLETS E SMARTPHONES */
+
+@media (max-width:  900px) {
 	.nav-menu {
 		height: 300px;
 	}

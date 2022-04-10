@@ -15,14 +15,20 @@ body {
 		"left right";
 }
 
+/* LADO DIREITO */
+
 .right {
 	grid-area: right;
 }
+
+/* LOGO */
 
 .right img {
 	width: 100px;
 	float: right;
 }
+
+/* TEXTO */
 
 .titulo {
 	display: flex;
@@ -41,6 +47,8 @@ body {
 	font-size: 1.5em;
 	text-align: center;
 }
+
+/* LINK DAS RECEITAS */
 
 .links {
 	display: flex;
@@ -61,6 +69,8 @@ body {
 	padding: 10px;
 	margin-bottom: 20px;
 }
+
+/* FORM EMAIL */
 
 form {
 	margin: 50px;
@@ -94,6 +104,8 @@ button:hover {
 	background: rgba(255, 50, 50, .4);
 	color: #ff0000;
 }
+
+/* LADO ESQUERDO */
 
 .left img {
 	grid-area: left;

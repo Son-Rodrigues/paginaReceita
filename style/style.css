@@ -5,6 +5,8 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+/* MENU */
+
 .menu {
 	max-height: 400px;
 }
@@ -44,6 +46,8 @@
 	border-radius: 10px;
 }
 
+/* Título */
+
 h1 {
 	text-align: center;
 	margin: 45px 20px;
@@ -56,6 +60,8 @@ h1 {
 	border-radius: 80%;
 	font-size: 1.5em;
 }
+
+/* IMAGEM E VIDEO */
 
 section .img {
 	display: flex;
@@ -80,6 +86,8 @@ section .img iframe {
 hr {
 	margin: 30px;
 }
+
+/* INGREDINTES */
 
 section .ingredientes {
 	display: flex;
@@ -135,6 +143,8 @@ h4:hover {
 	margin: 15px;
 }
 
+/* MODO DE PREPARO */
+
 .preparo {
 	display: flex;
 	flex-direction: column;
@@ -162,6 +172,8 @@ h4:hover {
 	font-size: .8em;
 }
 
+/* LINKS REDE SOCIAL */
+
 .links {
 	display: flex;
 	justify-content: space-around;
@@ -183,6 +195,8 @@ h4:hover {
 .links a img:hover {
 	width: 80px;
 }
+
+/* FOOTER */
 
 footer {
 	color: #fff;

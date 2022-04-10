@@ -1,3 +1,5 @@
+/* TABLETS */
+
 @media (max-width:  800px) {
 	body {
 	height: 100%;
@@ -54,6 +56,8 @@
 		display: none;
 	}
 }
+
+/* SMARTPHONES */
 
 @media (max-width:  600px) {
 
